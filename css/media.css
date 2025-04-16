@@ -1,0 +1,146 @@
+@media (max-width: 1382px) {
+    .container {
+        border: 2px solid red;
+
+    }
+
+    .header-img .dotted {
+          left: auto;
+          right: 0;
+          
+    }
+
+
+}
+
+@media (max-width: 991px) {
+    .header-container {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 60px;
+        
+    }
+
+    .header-text {
+        max-width: 528px;
+        width: 100%;
+        text-align: center;
+    }
+     
+    .header-btn {
+        padding-top: 15%;
+        justify-content: center;
+    }
+    
+ 
+    .header-img .couch {
+        width: 100%;
+        height: auto;
+        
+
+    }
+}
+
+@media (max-width: 768px) {
+    .header-navigator ul li a {
+        font-size: 16px;
+        
+
+    }
+
+        .header-navigator ul {
+            gap: 25px;
+        }
+}
+
+
+
+
+
+
+
+    /* */
+
+    @media (max-width:1024px) {
+        .white-zone {
+            flex-direction: column;
+                align-items: center;  
+        }
+
+                .choise {
+                    flex-direction: column;
+                    align-items: center;
+                }
+
+        
+    }
+
+    @media (max-width: 768px) {
+        .white-img {
+            min-width: 50%;
+        }
+    }
+
+    @media (max-width: 425px) {
+        .white-img {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+
+    
+
+    @media (max-width: 425px) {
+        .choise-img > .choisedivan {
+            width: 90%;
+            height: auto;
+        }
+
+  .header-navigator ul li a {
+ font-size: 14px; }
+                    
+ .header-navigator ul {
+    gap: 15px;
+    }
+                    
+    .header-img {
+    min-width: 100%;
+ }
+                    
+    .header-img .dotted {
+        width: 40%;
+        top: 80px;
+    }
+    }
+
+@media (max-width: 375px) {
+    .header-navigator ul li a {
+        font-size: 14px;
+
+
+    }
+
+    .header-navigator ul {
+        gap: 12px;
+    }
+
+
+    .header-navigator ul li a {
+        font-size: 14px;
+    }
+
+    .header-navigator ul {
+        gap: 10px;
+    }
+
+    .header-img {
+        min-width: 100%;
+    }
+
+    .header-img .dotted {
+        width: 40%;
+        top: 120px;
+    }
+
+}
