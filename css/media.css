@@ -77,9 +77,19 @@
 
     @media (max-width: 768px) {
         .white-img {
-            min-width: 50%;
+            max-width: 50%;
+            flex-direction: column;
         }
+        
     }
+
+
+@media (max-width: 726px) {
+    .white-img {
+        max-width: 50%;
+    }
+}
+
 
     @media (max-width: 425px) {
         .white-img {
@@ -144,3 +154,4 @@
     }
 
 }
+
