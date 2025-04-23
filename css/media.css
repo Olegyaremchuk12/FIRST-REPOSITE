@@ -1,6 +1,6 @@
 @media (max-width: 1382px) {
     .container {
-        border: 2px solid red;
+        
 
     }
 
@@ -71,9 +71,36 @@
                     flex-direction: column;
                     align-items: center;
                 }
+            .chair {
+                display: flex;
+                flex-direction: column;
+                align-items: center;;
+            }
+
+            .chair-text {
+                padding-top: 80px ;
+            }
+
+            .recent-imgfirst > img{ 
+                display: block;
+                width: 100%;
+            }
+            .recent-imgsecond>img {
+               display: block;
+               width: 100%;
+               }
+
+              .recent-imgthree>img {
+              display: block;
+              width: 100%;
+            }
+
+        }
+
+
+
 
         
-    }
 
     @media (max-width: 768px) {
         .white-img {
@@ -81,6 +108,9 @@
             flex-direction: column;
         }
         
+        .footer-divan {
+            max-width: 40%;
+        }
     }
 
 
@@ -96,6 +126,8 @@
             display: flex;
             flex-direction: column;
         }
+
+     
     }
 
 
@@ -106,6 +138,28 @@
             width: 90%;
             height: auto;
         }
+
+        .fonar {
+            display: none;
+        }
+
+        .stul {
+            display: none;
+        }
+
+        .chair-dot {
+         display: none;
+         }
+
+         .divan {
+            display: block;
+            margin: 0 auto;
+         }
+
+         .last-main {
+            display: flex;
+            flex-direction: column;
+         }
 
   .header-navigator ul li a {
  font-size: 14px; }
@@ -122,6 +176,38 @@
         width: 40%;
         top: 80px;
     }
+
+
+  .header-footer-input {
+    width: 100%;
+  }
+
+  .header-footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .placeholder { 
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-divan {
+    display: none;
+  }
+
+  .footer-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .right-text {
+    width: 100%;
+  }
+
+
+
     }
 
 @media (max-width: 375px) {
